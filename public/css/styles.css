@@ -134,18 +134,19 @@ input{
 .widget .weatherInfo .description .place {
   font-size: 15px;
 }
-.widget .date {
+.widget .dateyear {
   flex: 0 0 30%;
   height: 40%;
   background-color: #00000063;
   border-bottom-right-radius: 20px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   color: white;
-  font-size: 30px;
   font-weight: 800;
   font-size: 25px;
+  text-transform: uppercase;
 }
 
 p {

@@ -12,10 +12,13 @@ const locationElement = document.querySelector('.place');
 
 const dateElement = document.querySelector('.date');
 
+const yearElement = document.querySelector('.year');
+
 const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
-dateElement.textContent = new Date().getDate() + ", " + monthNames[new Date().getMonth()].substring(0, 3);
+dateElement.textContent = monthNames[new Date().getMonth()].substring(0, 3) + " " + new Date().getDate() + ", ";
 
+yearElement.textContent = new Date().getFullYear()
 
 weatherForm.addEventListener('submit', (event) => {
     event.preventDefault();
