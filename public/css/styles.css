@@ -112,14 +112,14 @@ input{
   color: white;
 }
 .widget .weatherInfo .temperature {
-  flex: 0 0 40%;
+  flex: 0 0 45%;
   width: 100%;
   font-size: 35px;
   display: flex;
   justify-content: space-around;
 }
 .widget .weatherInfo .description {
-  flex: 0 60%;
+  flex: 0 55%;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -129,7 +129,7 @@ input{
 .widget .weatherInfo .description .weatherCondition {
   text-transform: uppercase;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 500;
 }
 .widget .weatherInfo .description .place {
   font-size: 15px;
